@@ -4,7 +4,7 @@ class Application
 
     time1 = Time.new
 
-    if time > something
+    if time1.hour > something
       resp.write "Good Morning!"
     else
       resp.write "Good Afternoon!"
