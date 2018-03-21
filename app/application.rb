@@ -6,7 +6,7 @@ class Application
 
     #resp.write time1.hour
 
-    if time1.hour >= 12
+    if time1.hour < 12
       resp.write "Good Afternoon!"
     else
       resp.write "Good Morning!"
