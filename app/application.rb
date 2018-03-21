@@ -2,7 +2,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
 
-    time1 = Time.new(2015,11,27,14,30)
+    time1 = Time.new
 
     #resp.write time1.hour
 
